@@ -1,0 +1,4 @@
+iocage console nextcloud
+export CF_Key="sdfsdfsdfljlbjkljlkjsdfoiwje"
+export CF_Email="xxxx@sss.com"
+acme.sh --issue --dns dns_cf -d your_fqdn --fullchain-file /usr/local/etc/pki/tls/certs/fullchain.pem --key-file /usr/local/etc/pki/tls/private/privkey.pem --reloadcmd "service apache24 reload"
